@@ -8,62 +8,39 @@
 }
 /*todo lo relacionado al código de menu en estilos*/
 nav{
-background-color: #173066;
-	height: 80px;
-	width: 100%;	
-}
+background: #173066;
+height: 80px;
+width: 100%;
 
-.menu{
-	margin-top:px; 
-	width: 32px;
-	height: 32px;
-	margin-right: 20px;
 }
-.Angie{
-	margin-top: 10px;
-	margin-left: 20px;
-width: 150px;
-
-	
+.logo img{
+margin-top: 8px;
+width: 160px;
 	
 }
-
 nav ul{
 	float: right;
 	margin-right: 20px;
-	
 }
 
-nav ul li {
-display: inline-block;
+nav ul li{
+	display: inline-block;
 	line-height: 80px;
-	margin: 0 5px;
-	
+	margin:0 5px;
 }
-
 nav ul li a{
-	font-family: 'Poppins', sans-serif;
-color:#e96244;
+	color: white;
 	font-size: 17px;
 	padding: 7px 13px;
+	border-radius: 3px;
+	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 }
-.press,a:hover{
-	background:rgba(109,186,231,0.5);
-	border-radius:2px;
-	transition:0.5s;
+a.activo,a:hover{
+	background: rgba(82, 111, 175, 0.7);
+	transition	0.5s;
 }
-.checkbtn{
-	float: right;
-	line-height: 60px;
-	margin-right: 40px;
-	cursor:pointer;
-display: none;
-	
-}
-#check{
-display: none;
-}
+
 /*fin de código de menu*/
 
 /*inicio de estilo de el contenido general*/
@@ -178,51 +155,7 @@ text-align: center;
 
 
 @media screen and (max-width: 767px){ /*adapta el contenido con el css*/
-	.logo img{
-		width: 145px;
-		
-	}
 	
-	.menu{
-	margin-top:15px; 
-	width: 36px;
-	height: 36px;
-	margin-right: 20px;
-}
-	
-	nav ul li a {
-		
-		font-size: 16px;
-	}
-	
-
-	.checkbtn{
-		display: block;
-	}
-	ul{
-		position: fixed;
-		width: 100%;
-		height: 100%;
-		background-color: #234D75;
-		top: 80px;
-		left:-100%;
-		text-align: center;
-		transition: all 0.5s;
-	}
-	
-	nav ul li{
-		display: block;
-		margin: 50px 0;
-		line-height: 30px;
-	}
-	
-	.press, a:hover{
-		background: none;
-		color: white;
-	}
-	#check:checked ~ ul{
-		left: 0;
-	}
 	
 	.caja2{
 		

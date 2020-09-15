@@ -8,59 +8,39 @@
 }
 
 nav{
-background-color: #417DB6;
-	height: 80px;
-	width: 100%;	
-}
+background: #173066;
+height: 80px;
+width: 100%;
 
-.menu{
-	margin-top:15px; 
-	width: 48px;
-	height: 48px;
 }
-.Angie{
-width: 281px;
-
-	
+.logo img{
+margin-top: 8px;
+width: 160px;
 	
 }
-
 nav ul{
 	float: right;
 	margin-right: 20px;
-	
 }
 
-nav ul li {
-display: inline-block;
+nav ul li{
+	display: inline-block;
 	line-height: 80px;
-	margin: 0 5px;
-	
+	margin:0 5px;
 }
-
 nav ul li a{
-	font-family: 'Poppins', sans-serif;
-color:#D9F18A;
+	color: white;
 	font-size: 17px;
 	padding: 7px 13px;
+	border-radius: 3px;
+	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 }
-.press,a:hover{
-	background:rgba(109,186,231,0.5);
-	border-radius:2px;
-	transition:0.5s;
+a.activo,a:hover{
+	background: rgba(82, 111, 175, 0.7);
+	transition	0.5s;
 }
-.checkbtn{
-	float: right;
-	line-height: 60px;
-	margin-right: 40px;
-	cursor:pointer;
-display: none;
-	
-}
-#check{
-display: none;
-}
+
 
 /*aqui empieza todo despues del nav*/
 
