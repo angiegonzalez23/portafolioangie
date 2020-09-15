@@ -1,0 +1,120 @@
+*{
+	
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+nav{
+background-color: #417DB6;
+	height: 80px;
+	width: 100%;	
+}
+
+.menu{
+	margin-top:15px; 
+	width: 48px;
+	height: 48px;
+}
+.Angie{
+width: 281px;
+
+	
+	
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+	
+}
+
+nav ul li {
+display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+	
+}
+
+nav ul li a{
+	font-family: 'Poppins', sans-serif;
+color:#D9F18A;
+	font-size: 17px;
+	padding: 7px 13px;
+	text-transform: uppercase;
+}
+.press,a:hover{
+	background:rgba(109,186,231,0.5);
+	border-radius:2px;
+	transition:0.5s;
+}
+.checkbtn{
+	float: right;
+	line-height: 60px;
+	margin-right: 40px;
+	cursor:pointer;
+display: none;
+	
+}
+#check{
+display: none;
+}
+
+.general{
+width: 100%;
+height: auto;
+background-color: beige;	
+}
+
+.portadahtml img{
+	width: 100%;
+	
+}
+
+
+
+
+@media screen and (max-width: 767px){ /*adapta el contenido con el css*/
+	.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a {
+		
+		font-size: 16px;
+	}
+	.Angie{
+	width: 180px;
+		margin-top: 0px;
+	}
+
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: #234D75;
+		top: 80px;
+		left:-100%;
+		text-align: center;
+		transition: all 0.5s;
+	}
+	
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	
+	.press, a:hover{
+		background: none;
+		color: white;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+}

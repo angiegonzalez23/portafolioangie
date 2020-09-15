@@ -1,0 +1,174 @@
+*{
+	
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+nav{
+background-color: #417DB6;
+	height: 80px;
+	width: 100%;	
+}
+
+.menu{
+	margin-top:15px; 
+	width: 48px;
+	height: 48px;
+}
+.Angie{
+width: 281px;
+
+	
+	
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+	
+}
+
+nav ul li {
+display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+	
+}
+
+nav ul li a{
+	font-family: 'Poppins', sans-serif;
+color:#D9F18A;
+	font-size: 17px;
+	padding: 7px 13px;
+	text-transform: uppercase;
+}
+.press,a:hover{
+	background:rgba(109,186,231,0.5);
+	border-radius:2px;
+	transition:0.5s;
+}
+.checkbtn{
+	float: right;
+	line-height: 60px;
+	margin-right: 40px;
+	cursor:pointer;
+display: none;
+	
+}
+#check{
+display: none;
+}
+
+
+.general{
+width: 100%;
+height: auto;	
+background-color:;
+	
+}
+.cuadrito{
+width: 100%;
+height: auto;
+}
+
+.cuadrito img{
+width: 100%;	
+}
+
+.t{
+margin-top: 30px;	
+text-align: center;
+font-family: 'Poppins', sans-serif;	
+color: grey;
+font-size: 35px;
+margin-bottom: 20px;	
+}
+
+
+.s_section{
+	margin-top: 30px;
+	width: 100%;
+	background-color: aqua;
+	height: auto;
+}
+
+.ejercicio{
+
+float: left;
+width: 45%;
+height: auto;
+background-color: white;
+margin-top: 20px;
+margin-left:45px;
+border-radius:5px;
+-webkit-box-shadow: 0px 2px 14px 1px rgba(153,153,153,1);
+-moz-box-shadow: 0px 2px 14px 1px rgba(153,153,153,1);
+box-shadow: 0px 2px 14px 1px rgba(153,153,153,1);
+}
+
+.ejercicio img{
+margin-top: 7px;
+width:128px;
+height:128px;	
+margin-left: 20px;
+
+}
+.ejercicio h1{
+
+margin-left: 20px;
+	
+
+font-family: 'Poppins', sans-serif;
+}
+.ejercicio p{
+margin-left: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 13px;	
+text-align: justify center;	
+	
+}
+
+
+
+
+@media screen and (max-width: 767px){ /*adapta el contenido con el css*/
+	.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a {
+		
+		font-size: 16px;
+	}
+	
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: #234D75;
+		top: 80px;
+		left:-100%;
+		text-align: center;
+		transition: all 0.5s;
+	}
+	
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	
+	.press, a:hover{
+		background: none;
+		color: white;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+}
