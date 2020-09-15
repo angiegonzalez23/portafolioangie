@@ -40,6 +40,19 @@ a.activo,a:hover{
 	background: rgba(82, 111, 175, 0.7);
 	transition	0.5s;
 }
+/*del menu despegable*/
+nav li ul{
+	display: none;
+	position: absolute;
+	width: 160px;
+	background: #173066;
+	
+}
+
+nav li:hover > ul{
+display: block;
+
+}
 
 /*fin de código de menu*/
 
